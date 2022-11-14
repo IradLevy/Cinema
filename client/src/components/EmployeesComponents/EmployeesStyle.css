@@ -1,0 +1,60 @@
+.check-box-div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  border-radius: 0.5ch;
+  padding: 5px;
+  background: white;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.employees-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  padding-left: 10%;
+  padding-right:10%;
+  gap: 10px;
+}
+
+.card-actions {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+}
+
+.permissions-list {
+  padding-bottom: 30px;
+}
+
+#MuiPaper-elevation1 {
+  width: 100%;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .employees-list {
+      grid-template-columns: 1fr 1fr 1fr;
+
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .employees-list {
+      grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .employees-list {
+      grid-template-columns: 1fr;
+
+  }
+}

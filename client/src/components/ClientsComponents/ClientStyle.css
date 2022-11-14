@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    width: 100%;
+    border-radius: 0.5ch;
+    padding: 5px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.clients-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right:10%;
+    gap: 10px;
+}
+
+#MuiPaper-elevation1 {
+    width: 100%;
+    box-shadow: none;
+}
+
+.buttons-div {
+    position: absolute;
+    bottom: 0;
+}
+
+.movies-list {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .clients-list {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .clients-list {
+        grid-template-columns: 1fr 1fr;
+
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .clients-list {
+        grid-template-columns: 1fr;
+
+    }
+  }

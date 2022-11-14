@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  width: 100%;
+  border-radius: 0.5ch;
+  padding: 5px;
+  background: white;
+  box-sizing: border-box;
+}
+
+img {
+  max-height: 300px;
+}
+
+.card-details {
+  width: 70%;
+  margin-left: 8px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 10px;
+}
+
+.buttons-div {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  display: flex;
+}
+
+.watchers-list {
+  padding-bottom: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+  .movie-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .movie-list {
+    grid-template-columns: 1fr;
+  }
+}

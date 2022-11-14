@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: #4d4d4d;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: white;
+}
+
+/* .nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    align-items: center;
+}
+
+.nav {
+    background-color: 	#ff4055;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+.nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    font-size: 18px;
+} */
+
+#hamburgerMenu {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    #hamburgerMenu {
+        display: block;
+    }
+
+    .MuiButtonBase-root.menuButtons {
+        display: none;
+    }
+  }

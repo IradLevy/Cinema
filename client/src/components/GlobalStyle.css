@@ -1,0 +1,19 @@
+.form-box {
+  margin-top: 7vh;
+  opacity: 80%;
+  background: white;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-field {
+    width: 70%;
+  }
